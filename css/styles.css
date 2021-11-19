@@ -9,6 +9,7 @@
   --auth-color: rgba(255, 255, 255, 0.6);
   --header-border: #ececec;
   --border-portfolio-card: #eeeeee;
+  --social-link-color: #afb1b8;
 }
 
 body {
@@ -319,7 +320,9 @@ img {
 .button:hover,
 .current-button,
 .main-button:focus,
-.main-button:hover {
+.main-button:hover,
+.social-link:hover,
+.social-link:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
@@ -360,10 +363,10 @@ img {
   display: flex;
   justify-content: center;
 }
+
 .social-link-list-item {
   width: 44px;
   height: 44px;
-  border: 1px solid teal;
   margin-right: 10px;
 }
 .social-link-list-item:last-child {
@@ -382,6 +385,12 @@ img {
 }
 
 .social-link-icon {
+  fill: var(--social-link-color);
+}
+.social-link:hover .social-link-icon,
+.social-link:focus .social-link-icon {
+  background-color: var(--accent-color);
+  fill: var(--white-color);
 }
 
 .h2-title-list-foto {
