@@ -121,6 +121,13 @@ img {
   padding-bottom: 32px;
 }
 
+.auth-nav-letter {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--text-color);
+}
+
 .nav.current {
   color: var(--accent-color);
 }
