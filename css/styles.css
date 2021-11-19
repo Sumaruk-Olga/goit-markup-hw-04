@@ -377,7 +377,8 @@ img {
   letter-spacing: 0.03em;
 }
 
-.benefits {
+.benefits,
+.clients {
   padding: 94px 0px;
 }
 
