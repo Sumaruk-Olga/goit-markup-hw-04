@@ -127,6 +127,16 @@ img {
   margin-right: 10px;
   fill: var(--text-color);
 }
+.auth-nav-tel {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: var(--text-color);
+}
+.auth-nav {
+  display: flex;
+  align-items: center;
+}
 
 .nav.current {
   color: var(--accent-color);
@@ -139,6 +149,13 @@ img {
 .auth:focus,
 .auth:hover {
   color: var(--accent-color);
+}
+
+.auth-nav:hover .auth-nav-letter,
+.auth-nav:focus .auth-nav-letter,
+.auth-nav:hover .auth-nav-tel,
+.auth-nav:focus .auth-nav-tel {
+  fill: var(--accent-color);
 }
 
 .logo {
