@@ -470,3 +470,29 @@ img {
 .all-works-container {
   padding: 20px 24px;
 }
+
+.clients-list {
+  display: flex;
+}
+.clients-link {
+  justify-content: center;
+}
+
+.clients-list-item {
+  border: 1px solid var(--social-link-color);
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.clients-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.clients-list-icon {
+  fill: var(--social-link-color);
+}
