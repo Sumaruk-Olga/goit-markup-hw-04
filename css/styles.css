@@ -420,9 +420,20 @@ img {
   justify-content: center;
   cursor: pointer;
 }
+.client-link:focus,
+.client-list-icon,
+/* .client-link:hover, */
+.client-list-icon {
+  fill: var(--social-link-color);
+}
+
+.client-link:focus .client-list-icon,
+.client-link:hover .client-list-icon {
+  fill: var(--accent-color);
+}
 
 .social-link-icon,
-.clients-list-icon {
+.client-list-icon {
   fill: var(--social-link-color);
 }
 .social-link:hover .social-link-icon,

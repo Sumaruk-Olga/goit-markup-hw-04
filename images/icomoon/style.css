@@ -15,6 +15,10 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-logo {
+  width: 1.7666015625em;
+}
+
 .icon-brand {
   width: 1.7666015625em;
 }
