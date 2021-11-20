@@ -388,8 +388,12 @@ img {
   padding: 94px 0px;
 }
 
-.our-works,
+.our-works {
+  padding-bottom: 94px;
+}
+
 .team {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -400,22 +404,14 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 .team-container {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 32px;
 }
+
 .social-link-list {
   display: flex;
   justify-content: center;
 }
 
-.social-link-list-item {
-  width: 44px;
-  height: 44px;
-  margin-right: 10px;
-}
-.social-link-list-item:last-child {
-  margin-right: 0;
-}
 .social-link {
   width: 100%;
   height: 100%;
@@ -457,7 +453,7 @@ img {
 
 .benefits-list .list:not(:last-child),
 .h2-title-list .list:not(:last-child),
-.team-list .list:not(:last-child) {
+.team-list > .list:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -491,11 +487,11 @@ img {
 
 .all-works .list {
   background: var(--page-color);
-  border: 1px solid var(--border-portfolio-card);
-  border-top: 0;
 }
 .all-works-container {
   padding: 20px 24px;
+  border: 1px solid var(--border-portfolio-card);
+  border-top: 0;
 }
 
 .card:hover {
@@ -592,4 +588,11 @@ img {
 }
 .connect-us {
   margin-left: 70px;
+}
+.social-link-list-item {
+  width: 44px;
+  height: 44px;
+}
+.social-link-list-item:not(:last-child) {
+  margin-right: 10px;
 }
