@@ -384,16 +384,12 @@ img {
 }
 
 .benefits,
-.clients {
+.clients,
+.team {
   padding: 94px 0px;
 }
 
 .our-works {
-  padding-bottom: 94px;
-}
-
-.team {
-  padding-top: 94px;
   padding-bottom: 94px;
 }
 
@@ -499,7 +495,7 @@ img {
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 
-.client-link:focus {
+.client-link:focus .client-list-icon {
   border: 1px solid var(--accent-color);
 }
 .card-link:focus .all-works-container {
